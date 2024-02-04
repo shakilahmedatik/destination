@@ -1,0 +1,36 @@
+/* universal style */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+* {
+  font-family: 'Mulish', sans-serif;
+}
+
+/*  */
+
+main {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* destination section styles */
+.destination {
+  margin-bottom: 100px;
+}
+
+.destination-img-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.destination-img-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.destination-img-container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  gap: 24px;
+}
